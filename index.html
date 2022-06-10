@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>Gesture Interactions - A-Frame & AR.js</title>
@@ -6,15 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css">
 
-    <!-- <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script> -->
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="gesture-detector.js"></script>
     <script src="gesture-handler.js"></script>
-    
   </head>
+
   <body>
-  <a-scene
+    <a-scene
       arjs
       embedded
       renderer="logarithmicDepthBuffer: true;"
@@ -25,7 +25,7 @@
       <a-assets>
         <a-asset-item
           id="bowser"
-          src="modern_bed/scene.gltf"
+          src="https://cdn.glitch.com/06bd98b4-97ee-4c07-a546-fe39ca205034%2Fbowser.glb"
         >
         </a-asset-item>
       </a-assets>
